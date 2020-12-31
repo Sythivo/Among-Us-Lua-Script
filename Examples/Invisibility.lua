@@ -1,16 +1,16 @@
 
-Print("Enter in A Vent")
+print("Enter in A Vent")
 
 if not Debounce then Debounce={Invisibility=false} end
 
 if Debounce.Invisibility then return end
 Debounce={Invisibility=true}
 
-while not AmongUs.Player.Movement.Freeze do
+while not AmongUs.Player.Movement.Frozen do
    wait()
 end
-AmongUs.Player.Movement.Freeze = false
+AmongUs.Player.Movement.Frozen = false
 
-Print("Invisibility On")
+print("Invisibility On")
 
 Debounce={Invisibility=false}
