@@ -1,4 +1,4 @@
---Imposter/Crewmate Toggle
+--ToggleRole.lua
 -- Switches Between Imposter and Crewmate
 -- By Sythivo
 
